@@ -57,10 +57,31 @@ body {
     flex: 1;
     background-color: #fff;
     border: 1px solid #ccc;
+    padding: 4px 12px;
+    font-size: 13px;
+    color: #333;
+    margin: 0 10px;
+}
+
+.search {
+    display: flex;
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ccc;
     border-radius: 12px;
     padding: 4px 12px;
     font-size: 13px;
     color: #333;
+    max-width: 150px;
+    justify-content: space-between;
+}
+
+.search-text{
+    color: #818181;
+}
+
+.title-nav{
+    margin: 10px 100px 10px 0 ;
 }
 
 /* ===================== */
@@ -136,7 +157,9 @@ body {
 
 /* Seletor combinado: .tab dentro de .nav-tabs */
 .nav-tabs .tab {
-    padding: 12px 24px;
+    display: flex;
+    padding: 10px 24px;
+    align-items: flex-end;
     text-decoration: none;
     color: #666;
     font-size: 14px;
@@ -162,10 +185,11 @@ body {
 /* Sidebar               */
 /* ===================== */
 .sidebar {
+    margin-right: 10px;
     width: 200px;
     min-width: 200px;
     background-color: #f9f9f9;
-    border-right: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
     padding: 16px 0; /* padding */
 }
 
@@ -240,7 +264,7 @@ body {
 /* Seletor combinado: img dentro de .ad-banner */
 .ad-banner img {
     width: 100%;
-    display: block;
+    display: block; 
 }
 
 .ad-label {
@@ -268,11 +292,8 @@ body {
     margin-bottom: 16px;
 }
 
-/* Video Grid - display: grid */
 .video-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
+    max-width: 100vh;
 }
 
 /* ===================== */
@@ -283,12 +304,32 @@ body {
     border-radius: 4px;
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    min-width: 80vw;
+}
+
+.video-aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.title-aside{
+    padding-left: 10px;
 }
 
 /* Seletor combinado: .thumbnail dentro de .video-card */
 .video-card .thumbnail {
     width: 100%;
     display: block;
+}
+
+.conter{
+    width: 80%;
+    object-fit: contain
 }
 
 .video-info {

@@ -2,19 +2,17 @@
 
 ## Informações Gerais
 
-Nome: Luiz Carlos  da Silva
-Matricula: Teste
+Nome: Lucas Oliveira Dias
+Matricula: 907253 ou 1638685
+Proposta de projeto escolhida: Wireframe basico que peguei na internet
+Breve descrição sobre seu projeto: Wireframe do Mytube, clone youtube
 
-## Tela de inspeção com navegador
+## Tela de wireframe
 
-`<Coloque aqui o print da tela de inspeção do seu navegador>`
+![Print  do wireframe](src/wireframe.png)
+
+## Tela Pronta Navegador
+
+![Print  do Navegador](src/telanavegador.png)
 
 
-
-## Orientações sobre Linguagem MarkDown
-
-Acesse e leia o [tutorial do GitHub com a sintaxe básica para escrita de texto em Markdown](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-Veja aqui o exemplo de como colocar uma imagem nos locais acima. 
-
-![Brasão PUC Minas](images/brasao_puc.png)
